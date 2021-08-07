@@ -1,0 +1,121 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+ background-color:#F8F8F8;
+}
+
+/*top header part style*/
+.topheader{
+	background-color:#0d5ea5;
+	padding-top: 10px;
+}
+
+.topheader ul{
+	list-style: none;
+}
+
+.topheader ul li a{
+	color:#e0e0d2;
+	text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.topheader ul li a:hover{
+	color: white;
+}
+
+/*manubar part*/
+.menubar{
+    box-shadow: 0 8px 6px -8px lightblue;
+}
+
+.logoname{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.logoname:hover{
+	color: #ff9900;
+}
+
+.menubar .navbar ul{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.menubar .navbar ul li a{
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+.quiz{
+  color:#ff9900 ;
+}
+
+.listname:hover{
+    color:#ff9900 ;
+}
+
+/*
+.student{
+	background-image: url('https://images.unsplash.com/photo-1596496050755-c923e73e42e1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1936&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+*/
+.collapsible {
+  color: white;
+  cursor: pointer;
+  padding: 14px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 17px;
+}
+
+.col{
+    background-color:gray;
+}
+
+
+ .collapsible:hover {
+  background-color: #555;
+  color: white;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+
+.footerbgcolor{
+  background-color:#282828;
+  color: white;
+}
+
+
+

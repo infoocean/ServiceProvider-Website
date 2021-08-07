@@ -1,0 +1,151 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+ background-color:#F8F8F8;
+}
+/*top header part style*/
+.topheader{
+	background-color:#0d5ea5;
+	padding-top: 10px;
+}
+
+.topheader ul{
+	list-style: none;
+}
+
+.topheader ul li a{
+	color:#e0e0d2;
+	text-decoration: none;
+	  margin-left: 5px;
+    margin-right: 5px;
+}
+
+.topheader ul li a:hover{
+	color: white;
+}
+
+/*manubar part*/
+.menubar{
+    box-shadow: 0 8px 6px -8px lightblue;
+}
+
+.cont{
+	color:#ff9900 ;
+}
+
+.logoname{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.logoname:hover{
+	color: #ff9900;
+}
+
+.listname:hover{
+    color:#ff9900 ;
+}
+
+.menubar .navbar ul{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.menubar .navbar ul li a{
+	font-size: 17px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+
+.images{
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 100%;
+	min-height: 50vh;
+}
+
+.images img{
+	width: 100%;
+	min-height:50vh;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  resize: vertical;
+}
+
+input[type=submit]{
+	width:170px;
+	 min-height:40px;
+	 background-color:#ff1a8c;
+	 color: white;
+}
+
+input[type=submit]:hover {
+  background-color: pink;
+  color: red;
+  border: 2px solid red;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 90%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.contactus a{
+	font-size: 20px;
+	text-decoration: none;
+	font-family: century-gothic;
+	font-weight: bold;
+}
+
+.contactus .icon{
+	font-size: 50px;
+	color:tomato;
+}
+
+.footerbgcolor{
+	background-color:#282828;
+	color: white;
+}

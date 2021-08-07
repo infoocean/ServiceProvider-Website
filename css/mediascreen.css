@@ -1,0 +1,55 @@
+@media (max-width: 600px){
+	
+	.topheader{
+		display: none;
+
+	}
+	.coursetitle{
+		display: none;
+	}
+
+	.contactus .para p a,i{
+		font-size: 18px;
+		text-align: center;
+		align-items: center;
+	}
+
+	.card{
+		width: 100%;
+		height: 100%
+	}
+
+	.contactus .para{
+		align-content: center;
+	}
+
+	.title{
+		text-align: center;
+	}
+	.title h6, p{
+		text-align: center;
+	}
+
+	.form{
+		padding-left: 30px;
+		padding-bottom: 20px;
+	}
+
+	.inneercollapse span{
+		display: none;
+	}
+
+	.showlink{
+		margin-top: 20px;
+	}
+
+	.upcommingquiz .inner{
+        padding-left: 0px;
+        padding-right: 0px;
+	}
+
+	.searchfeild{
+		text-align: center;
+	}
+
+}
